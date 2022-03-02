@@ -19,7 +19,7 @@ class Ad extends Component{
 					{
 						this.state.data.length
 						? <HomeAd data={this.state.data}/>
-						: <div>加载中...</div>
+						: <div>loading...</div>
 					}
 				</div>
 			)

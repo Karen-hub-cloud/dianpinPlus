@@ -120,7 +120,7 @@ class AppContainer extends Component{
 	componentDidMount(){
 		let cityName = LocalStore.getItem(CITYNAME)
 		if(cityName == null){
-			cityName = '上海'
+			cityName = 'shanghai'
 		}
 
 		this.props.userInfoActions.update({

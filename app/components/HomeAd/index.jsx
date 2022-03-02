@@ -11,7 +11,7 @@ class HomeAd extends Component{
 	render(){
 		return (
 				<div id={styles["home-ad"]}>
-					<h2>超值特惠</h2>
+					<h2>service</h2>
 					<div className={styles["ad-container"]+" clear-fix"}>
 						{this.props.data.map((item,index)=>{
 							return <div key={index} className={styles["ad-item"]+" float-left"}>

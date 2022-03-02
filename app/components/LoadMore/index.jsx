@@ -13,8 +13,8 @@ class LoadMore extends Component{
 				<div className={styles["load-more"]} ref="wrapper">
 					{
 						this.props.isLoadingMore
-						? <span>加载中...</span>
-						: <span onClick={this.loadMoreHandle.bind(this)}>加载更多</span>
+						? <span>loading...</span>
+						: <span onClick={this.loadMoreHandle.bind(this)}>more</span>
 					}
 				</div>
 			)

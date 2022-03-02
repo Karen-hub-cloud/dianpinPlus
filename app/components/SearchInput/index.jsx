@@ -17,7 +17,7 @@ class SearchInput extends Component{
 					<i className="icon-search"></i>
 					<input 
 						type="text"
-						placeholder="请输入关键字"
+						placeholder="input keyWord"
 						value={this.state.value}
 						onChange={this.changeHandle.bind(this)}
 						onKeyUp={this.keyUpHandle.bind(this)}

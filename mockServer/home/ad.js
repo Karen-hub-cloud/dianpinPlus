@@ -1,32 +1,32 @@
 var config=require("../config/config")
 module.exports = [
     {
-        title: '暑假5折',
+        title: 'course',
         img:  config.imgUrl+'/2.png',
         link: 'http://www.wuyanwen.cc'
     },
     {
-        title: '特价出国',
+        title: 'ravel',
         img: config.imgUrl+'/3.png',
         link: 'http://www.wuyanwen.cc'
     },
     {
-        title: '亮亮车',
+        title: 'car wash',
         img:  config.imgUrl+'/4.png',
         link: 'http://www.wuyanwen.cc'
     },
     {
-        title: '学钢琴',
+        title: 'Learn Piano',
         img:  config.imgUrl+'/5.png',
         link: 'http://www.wuyanwen.cc'
     },
     {
-        title: '电影',
+        title: 'watch movie',
         img:  config.imgUrl+'/6.png',
         link: 'http://www.wuyanwen.cc'
     },
     {
-        title: '旅游热线',
+        title: 'playground',
         img:  config.imgUrl+'/7.png',
         link: 'http://www.wuyanwen.cc'
     }

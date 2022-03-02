@@ -22,22 +22,22 @@ class Footer extends Component{
 								<li>
 									{
 										menu === 1
-										? <span className={styles["active"]}>首页</span>
-										: <Link to="/"><span>首页</span></Link>
+										? <span className={styles["active"]}>homePage</span>
+										: <Link to="/"><span>homePage</span></Link>
 									}							
 								</li>
 								<li>
 									{
 										menu === 3
-										? <span className={styles["active"]}>发现</span>
-										: <Link to="/search/all"><span>发现</span></Link>
+										? <span className={styles["active"]}>Browse</span>
+										: <Link to="/search/all"><span>Browse</span></Link>
 									}
 								</li>
 								<li>
 									{
 										menu === 4
-										? <span className={styles["active"]}>我的</span>
-										: <Link to="/user"><span>我的</span></Link>
+										? <span className={styles["active"]}>MyPage</span>
+										: <Link to="/user"><span>MyPage</span></Link>
 									}
 								</li>
 							</ul>

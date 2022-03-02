@@ -23,11 +23,11 @@ class Comment extends React.Component {
     render() {
         return (
             <div className={styles["detail-comment-subpage"]}>
-                <h2>用户点评</h2>
+                <h2>comment</h2>
                 {
                     this.state.data.length
                     ? <ListComponent data={this.state.data}/>
-                    : <div className={styles["loading"]}>加载中...</div>
+                    : <div className={styles["loading"]}>loading...</div>
                 }
                 {
                     this.state.hasMore

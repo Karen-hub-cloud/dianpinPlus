@@ -20,7 +20,7 @@ class Info extends Component{
 					{
 						this.state.info
 						? <DetailInfo data={this.state.info}/>
-						: <div>正在加载...</div>
+						: <div>loading...</div>
 					}
 				</div>
 			)

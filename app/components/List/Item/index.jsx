@@ -27,7 +27,7 @@ class Item extends Component{
 							</p>
 							<div className={styles['item-price-container']+" clear-fix"}>
 								<span className={styles['price']+" float-left"}>￥{data.price}</span>
-								<span className={styles['number']+" float-right"}>已售{data.number}</span>
+								<span className={styles['number']+" float-right"}>Sale{data.number}</span>
 							</div>
 						</div>
 					</Link>

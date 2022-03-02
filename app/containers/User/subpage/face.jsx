@@ -13,8 +13,8 @@ class Face extends Component{
 				<div id={styles["user-info-face"]} className="clear-fix">
 					<div className={styles["face"]}></div>
 					<div className={styles["user-info-action"]}>
-						<span>登录</span>
-						<span>注册</span>
+						<span>login</span>
+						<span>register</span>
 					</div>
 				</div>
 			)

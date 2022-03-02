@@ -14,40 +14,40 @@ class CityList extends React.Component {
                 <h3>热门城市</h3>
                 <ul className="clear-fix">
                     <li>
-                        <span onClick={this.clickHandle.bind(this, '北京')}>北京</span>
+                        <span onClick={this.clickHandle.bind(this, 'beijing')}>beijing</span>
                     </li>
                     <li>
-                        <span onClick={this.clickHandle.bind(this, '上海')}>上海</span>
+                        <span onClick={this.clickHandle.bind(this, 'shanghai')}>shanghai</span>
                     </li>
                     <li>
-                        <span onClick={this.clickHandle.bind(this, '杭州')}>杭州</span>
+                        <span onClick={this.clickHandle.bind(this, 'hangzhou')}>hangzhou</span>
                     </li>
                     <li>
-                        <span onClick={this.clickHandle.bind(this, '广州')}>广州</span>
+                        <span onClick={this.clickHandle.bind(this, 'guangzhou')}>guangzhou</span>
                     </li>
                     <li>
-                        <span onClick={this.clickHandle.bind(this, '苏州')}>苏州</span>
+                        <span onClick={this.clickHandle.bind(this, 'Dallas')}>Dallas</span>
                     </li>
                     <li>
-                        <span onClick={this.clickHandle.bind(this, '深圳')}>深圳</span>
+                        <span onClick={this.clickHandle.bind(this, 'Los Angeles')}>Los Angeles</span>
                     </li>
                     <li>
-                        <span onClick={this.clickHandle.bind(this, '南京')}>南京</span>
+                        <span onClick={this.clickHandle.bind(this, 'New York')}>New York</span>
                     </li>
                     <li>
-                        <span onClick={this.clickHandle.bind(this, '天津')}>天津</span>
+                        <span onClick={this.clickHandle.bind(this, 'Seattle')}>Seattle</span>
                     </li>
                     <li>
-                        <span onClick={this.clickHandle.bind(this, '重庆')}>重庆</span>
+                        <span onClick={this.clickHandle.bind(this, 'Austin')}>Austin</span>
                     </li>
                     <li>
-                        <span onClick={this.clickHandle.bind(this, '厦门')}>厦门</span>
+                        <span onClick={this.clickHandle.bind(this, 'Boston')}>Boston</span>
                     </li>
                     <li>
-                        <span onClick={this.clickHandle.bind(this, '武汉')}>武汉</span>
+                        <span onClick={this.clickHandle.bind(this, 'Houston')}>Houston</span>
                     </li>
                     <li>
-                        <span onClick={this.clickHandle.bind(this, '西安')}>西安</span>
+                        <span onClick={this.clickHandle.bind(this, 'Little Rock')}>Little Rock</span>
                     </li>
                 </ul>
             </div>

@@ -67,8 +67,8 @@ class List extends Component{
 			if(res.ok){
 				return res.json()				
 			}else{
-				console.log("当前城市："+this.props.cityName);
-				console.log("当前页码："+this.state.page);
+				console.log("currentCity："+this.props.cityName);
+				console.log("currentPage："+this.state.page);
 				return ListData;
 			}
 		}).then(json=>{
