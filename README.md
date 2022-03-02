@@ -1,15 +1,15 @@
-### 从零开始使用React全家桶开发电商系统
+### 商场-小组作业
 
 ### 技术栈：
 react + react-router4.1 + redux + koa2 + koa-router + less + ES6/7 + webpack + fetch + bundle-loader
 
 ### 项目说明：
 
-### 基于 react react-router redux 的项目，主要是为了学习实战react全家桶
+### 基于 react react-router redux 的项目
 
 ### 下载
 
- 	git clone https://github.com/wuyanwen/dianpinPlus
+ 	git clone https://github.com/Karen-hub-cloud/dianpinPlus.git
 
  	cd dianpinPlus
 
@@ -30,14 +30,13 @@ react + react-router4.1 + redux + koa2 + koa-router + less + ES6/7 + webpack + f
 
 ### 最后
 
->  欢迎 issue 和 pr<br>
->  欢迎加入前端实战交流QQ群: 541024234
 
 ## 附项目截图
+<img width="820" alt="image" src="https://user-images.githubusercontent.com/61591359/156362821-2f4c5641-ab42-442c-8dd3-cd77ac1b52ad.png">
+<img width="850" alt="image" src="https://user-images.githubusercontent.com/61591359/156363066-e8001ab9-5f92-49e4-a47c-065b5d354c34.png">
 
-![image](./images/1.jpg)
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/61591359/156363150-0a473eed-9b2e-41ed-ac09-2906b088b699.png">
 
-![image](./images/2.jpg)
+<img width="804" alt="image" src="https://user-images.githubusercontent.com/61591359/156363190-78429d8f-256f-4dab-af3b-b1c53278b724.png">
 
-![image](./images/3.jpg)
 
