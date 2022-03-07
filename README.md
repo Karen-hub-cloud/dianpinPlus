@@ -31,6 +31,4 @@ react + react-router4.1 + redux + koa2 + koa-router + less + ES6/7 + webpack + f
 <img width="800" alt="image" src="https://user-images.githubusercontent.com/61591359/156363150-0a473eed-9b2e-41ed-ac09-2906b088b699.png">
 
 <img width="804" alt="image" src="https://user-images.githubusercontent.com/61591359/156363190-78429d8f-256f-4dab-af3b-b1c53278b724.png">
-![1201646621713_ pic](https://user-images.githubusercontent.com/61591359/156959944-9fd7f451-a315-43da-921a-53107014119f.jpg)
-
 
