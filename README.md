@@ -1,13 +1,13 @@
-### 商场-小组作业
+### UTA_TEAMWORK
 
-### 技术栈：
+### technology stack：
 react + react-router4.1 + redux + koa2 + koa-router + less + ES6/7 + webpack + fetch + bundle-loader
 
-### 项目说明：
+### project instruction：
 
-### 基于 react react-router redux 的项目
+### project base on react react-router redux 
 
-### 下载
+### step1:download
 
  	git clone https://github.com/Karen-hub-cloud/dianpinPlus.git
 
@@ -15,23 +15,15 @@ react + react-router4.1 + redux + koa2 + koa-router + less + ES6/7 + webpack + f
 
  	npm install
 
-### 运行（nodejs 7.6.0+）
+### step2: run（nodejs 16.14.0+）
 ```
- npm run dev (正常编译模式)
+ npm run dev 
 
- 访问 http://localhost:8080
-
- npm run build （发布生产版本，对代码进行混淆压缩，提取公共代码，分离css文件）
-```
-### 说明
+ request http://localhost:8080
+### end
 
 
->  如果觉得不错的话，您可以点右上角 "Star" 支持一下 谢谢！ ^_^
-
-### 最后
-
-
-## 附项目截图
+## Screenshot
 <img width="820" alt="image" src="https://user-images.githubusercontent.com/61591359/156362821-2f4c5641-ab42-442c-8dd3-cd77ac1b52ad.png">
 <img width="809" alt="image" src="https://user-images.githubusercontent.com/61591359/156364766-1934bed4-089d-4ef7-b362-741b48578686.png">
 
@@ -39,5 +31,6 @@ react + react-router4.1 + redux + koa2 + koa-router + less + ES6/7 + webpack + f
 <img width="800" alt="image" src="https://user-images.githubusercontent.com/61591359/156363150-0a473eed-9b2e-41ed-ac09-2906b088b699.png">
 
 <img width="804" alt="image" src="https://user-images.githubusercontent.com/61591359/156363190-78429d8f-256f-4dab-af3b-b1c53278b724.png">
+![1201646621713_ pic](https://user-images.githubusercontent.com/61591359/156959944-9fd7f451-a315-43da-921a-53107014119f.jpg)
 
 
