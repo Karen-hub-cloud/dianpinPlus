@@ -16,14 +16,12 @@ react + react-router4.1 + redux + koa2 + koa-router + less + ES6/7 + webpack + f
  	npm install
 
 ### step2: run（nodejs 16.14.0+）
-```
  npm run dev 
 
  request http://localhost:8080
 ### end
 
-
-### Screenshot
+## Screenshot
 <img width="820" alt="image" src="https://user-images.githubusercontent.com/61591359/156362821-2f4c5641-ab42-442c-8dd3-cd77ac1b52ad.png">
 <img width="809" alt="image" src="https://user-images.githubusercontent.com/61591359/156364766-1934bed4-089d-4ef7-b362-741b48578686.png">
 
