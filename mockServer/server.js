@@ -1,9 +1,10 @@
 const Koa = require('koa');
 const app = new Koa()
 var router = require('koa-router')();
+
 //首页广告
 var homeAdData = require('./home/ad.js');
-router.get('/api/homead',function(ctx,next){  
+router.get('/api/homead',function(ctx,next){
 	ctx.body = homeAdData;
 })
 
@@ -50,14 +51,28 @@ router.get('/api/search/:page/:city/:category', function (ctx,next) {
 })
 
 // 详情页 - 商户信息
-const detailInfo = require('./detail/info.js')
+const detailInfo8 = require('./detail/info8.js')
+const detailInfo9 = require('./detail/info9.js')
+const detailInfo10 = require('./detail/info10.js')
+const detailInfo11 = require('./detail/info11.js')
 router.get('/api/detail/info/:id', function (ctx,next) {
     console.log('Detail - Location')
 
     const id = ctx.params.id
 
+    if(id == 8){
+        ctx.body = detailInfo8
+    }
+    if(id == 9){
+        ctx.body = detailInfo9
+    }
+    if(id == 10){
+        ctx.body = detailInfo10
+    }
+    if(id == 11){
+        ctx.body = detailInfo11
+    }
 
-    ctx.body = detailInfo
 })
 
 // 详情页 - 用户评论

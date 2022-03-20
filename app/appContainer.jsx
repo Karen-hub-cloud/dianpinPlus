@@ -18,6 +18,8 @@ import Bundle from './bundle';
 // 不需要异步加载的组件
 import HomeContainer from './containers/Home'
 import FooterContainer from './components/Footer'
+import CartContainer from "./components/Cart";
+import ContactContainer from "./components/Contact";
 
 // 异步加载文件
 import CityContainer from 'bundle-loader?lazy!./containers/City'
@@ -25,6 +27,7 @@ import SearchContainer from 'bundle-loader?lazy!./containers/Search'
 import UserContainer from 'bundle-loader?lazy!./containers/user'
 import DetailContainer from 'bundle-loader?lazy!./containers/Detail'
 import NotFoundContainer from 'bundle-loader?lazy!./containers/NotFound'
+
 
 
 const City = (props)=> (
@@ -35,7 +38,7 @@ const City = (props)=> (
 
 const Search = (props)=>(
 	<Bundle load={SearchContainer}>
-		{(Search)=><Search 
+		{(Search)=><Search
 					history={props.props.history}
 					match={props.props.match}
 				/>}
@@ -49,7 +52,7 @@ const User = (props)=>(
 
 const Detail = (props)=>(
 	<Bundle load={DetailContainer}>
-		{(Detail)=><Detail 
+		{(Detail)=><Detail
 					history={props.props.history}
 					match={props.props.match}
 				/>}
@@ -80,31 +83,33 @@ class AppContainer extends Component{
 				?	<div id="app">
 						<Switch>
 							<Route exact path="/" component={HomeContainer}/>
-							<Route exact 
-								path="/city" 
+							<Route exact path="/cart" component={CartContainer}/>
+							<Route exact path="/contact" component={ContactContainer}/>
+							<Route exact
+								path="/city"
 								render={props=>(
 									<City props={props} />
 								)}
 							/>
-							<Route 
-								path="/search/:category/:keyword?" 
+							<Route
+								path="/search/:category/:keyword?"
 								render={props=>(
 									<Search props={props} />
 								)}
 							/>
-							<Route 
-								path="/detail/:id" 
+							<Route
+								path="/detail/:id"
 								render={props=>(
 									<Detail props={props} />
 								)}
 							/>
-							<Route 
-								path="/user" 
+							<Route
+								path="/user"
 								render={props=>(
 									<User props={props} />
 								)}
 							/>
-							<Route 
+							<Route
 								render={props=>(
 									<NotFound props={props} />
 								)}
@@ -126,7 +131,7 @@ class AppContainer extends Component{
 		this.props.userInfoActions.update({
 			cityName:cityName
 		})
-		
+
 		this.setState({
 			initDone:true
 		})

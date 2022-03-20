@@ -7,6 +7,7 @@ import * as appActions from '../../actions/app'
 
 import Face from './subpage/face'
 import styles from './style.less'
+import {Link} from "react-router-dom";
 
 class User extends Component{
 	constructor(props) {
@@ -18,6 +19,17 @@ class User extends Component{
 				<div id={styles["user-info"]}>
 					<Face />
 					<div style={{height: '15px'}}></div>
+					<div className={styles["home-header-right"]+" float-right"}>
+						<Link to="/cart">
+							<i className="icon-star"> Cart</i>
+						</Link>
+					</div>
+
+					<div className={styles["home-header-right"]+" float-right"}>
+						<Link to="/contact">
+							<i className="icon-star"> Contact Us</i>
+						</Link>
+					</div>
 				</div>
 			)
 	}

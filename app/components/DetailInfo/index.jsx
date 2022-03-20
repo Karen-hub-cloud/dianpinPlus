@@ -28,6 +28,7 @@ class DetailInfo extends Component{
 						</div>
 					</div>
 					<p dangerouslySetInnerHTML={{__html:data.desc}} className={styles["info-desc"]}></p>
+					<br></br><br></br><button>buy</button>
 				</div>
 			)
 	}

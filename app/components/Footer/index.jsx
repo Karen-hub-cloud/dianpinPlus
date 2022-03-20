@@ -24,7 +24,7 @@ class Footer extends Component{
 										menu === 1
 										? <span className={styles["active"]}>homePage</span>
 										: <Link to="/"><span>homePage</span></Link>
-									}							
+									}
 								</li>
 								<li>
 									{
@@ -40,6 +40,13 @@ class Footer extends Component{
 										: <Link to="/user"><span>MyPage</span></Link>
 									}
 								</li>
+								<li>
+									{
+										menu === 5
+											? <span className={styles["active"]}>Cart</span>
+											: <Link to="/cart"><span>MyPage</span></Link>
+									}
+								</li>
 							</ul>
 					    </div>
 				}
@@ -47,7 +54,7 @@ class Footer extends Component{
 			)
 	}
 	componentDidMount(){
-		
+
 	}
 }
 

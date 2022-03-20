@@ -4,7 +4,7 @@ import PureRenderMixin from 'react-addons-pure-render-mixin'
 import { getDetail } from '../../../fetch/detail/detail'
 import DetailInfo from '../../../components/DetailInfo'
 
-import InfoData from '../../../../mockServer/detail/info'
+import InfoData from '../../../../mockServer/detail/info8'
 
 class Info extends Component{
 	constructor(props) {
@@ -31,7 +31,7 @@ class Info extends Component{
 
 		result.then(res=>{
 			if(res.ok){
-				return res.json()				
+				return res.json()
 			}else{
 				console.log("当前id："+id);
 				return InfoData;

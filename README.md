@@ -35,9 +35,4 @@ react + react-router4.1 + redux + koa2 + koa-router + less + ES6/7 + webpack + f
 
 ## 附项目截图
 
-![image](./images/1.jpg)
-
-![image](./images/2.jpg)
-
-![image](./images/3.jpg)
 

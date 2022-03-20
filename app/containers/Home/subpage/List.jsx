@@ -23,7 +23,7 @@ class List extends Component{
 	render(){
 		return (
 				<div>
-					<h2 className={styles["home-list-title"]}>猜你喜欢</h2>
+					<h2 className={styles["home-list-title"]}>Course And Product</h2>
 					{
 						this.state.data.length
 						? <HomeList data={this.state.data}/>
@@ -48,7 +48,7 @@ class List extends Component{
 		this.setState({
 			isLoadingMore:true
 		})
-		
+
 
 		const cityName = this.props.cityName
 		const page = this.state.page
@@ -65,7 +65,7 @@ class List extends Component{
 	resultHandle(result){
 		result.then(res=>{
 			if(res.ok){
-				return res.json()				
+				return res.json()
 			}else{
 				console.log("currentCity："+this.props.cityName);
 				console.log("currentPage："+this.state.page);
