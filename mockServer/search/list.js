@@ -3,7 +3,7 @@ module.exports = {
     hasMore: true,
     data: [
         {
-            img: config.imgUrl+'/10.png',
+            img: config.imgUrl+'/8.png',
             title: 'course',
             subTitle: 'course',
             price: '150',

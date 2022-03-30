@@ -44,6 +44,7 @@ class Cart extends Component{
 							<p className={styles["sub-title"]}>Start time: 2022.3.20 ~ 2022.6.31</p>
 						</div>
 					</div>
+					<button>pay</button>
 				</div>
 			)
 	}

@@ -11,7 +11,7 @@ class CityList extends React.Component {
     render() {
         return (
             <div className={styles["city-list-container"]}>
-                <h3>热门城市</h3>
+                <h3>city</h3>
                 <ul className="clear-fix">
                     <li>
                         <span onClick={this.clickHandle.bind(this, 'beijing')}>beijing</span>
