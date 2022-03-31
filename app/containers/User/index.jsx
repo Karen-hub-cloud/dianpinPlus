@@ -17,7 +17,7 @@ class User extends Component{
 		return (
 				<div id={styles["user-info"]}>
 					<Face />
-					<div style={{height: '15px'}}></div>
+					<div style={height: '15px'}></div>
 				</div>
 			)
 	}
