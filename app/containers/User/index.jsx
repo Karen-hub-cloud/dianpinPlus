@@ -18,6 +18,7 @@ class User extends Component{
 		return (
 				<div id={styles["user-info"]}>
 					<Face />
+<<<<<<< HEAD
 					<div style={{height: '15px'}}></div>
 					<div className={styles["home-header-right"]+" float-right"}>
 						<Link to="/cart">
@@ -30,6 +31,9 @@ class User extends Component{
 							<i className="icon-star"> Contact Us</i>
 						</Link>
 					</div>
+=======
+					<div style={height: '15px'}></div>
+>>>>>>> d48ce117c94fdc3e15c84eae6f4eb7c81b46a43e
 				</div>
 			)
 	}

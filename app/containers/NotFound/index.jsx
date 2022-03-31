@@ -11,7 +11,7 @@ class NotFound extends Component{
 	}
 	render(){
 		return (
-				<h2 style={{textAlign:"center"}}>404 NOT FOUND...</h2>
+				<h2 style={textAlign:"center"}>404 NOT FOUND...</h2>
 			)
 	}
 	componentDidMount(){

@@ -27,8 +27,12 @@ class DetailInfo extends Component{
 							<p className={styles["sub-title"]}>{data.subTitle}</p>
 						</div>
 					</div>
+<<<<<<< HEAD
 					<p dangerouslySetInnerHTML={{__html:data.desc}} className={styles["info-desc"]}></p>
 					<br></br><br></br><button>buy</button>
+=======
+					<p dangerouslySetInnerHTML={__html:data.desc} className={styles["info-desc"]}></p>
+>>>>>>> d48ce117c94fdc3e15c84eae6f4eb7c81b46a43e
 				</div>
 			)
 	}
